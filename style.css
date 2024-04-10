@@ -1,0 +1,53 @@
+
+body{
+    background-color: azure;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    text-align-last: center; 
+}
+#div1{
+    text-align-last: center;
+}
+#admin-section{
+    color: midnightblue;
+    background-color: darkseagreen;
+    width: 400px;
+    height: 500px;
+    border-color: black;
+    border-width: 5px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+#checkout-section{
+    text-align-last: center;
+    color: midnightblue;
+    background-color: darkseagreen;
+    width: 400px;
+    height: 500px;
+    border-color: black;
+    border-width: 5px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+#receipt-section{
+    text-align-last: center;
+    color: midnightblue;
+    background-color: darkseagreen;
+    position: center;
+    float: center;
+    width: 400px;
+    height: 500px;
+    border-color: black;
+    border-width: 5px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+
+}

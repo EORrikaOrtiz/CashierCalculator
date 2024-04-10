@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashier Calculator</title>       
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="div1"><h1>Cashier Calculator</h1></div>
+    <table>
+        <tr>
+    <td id="admin-section">
+        <h1>Admin</h1></br>
+        <h2>Add New Product</h2>
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName">
+        <button onclick="addProduct()">Add Product</button>
+        <h2>Set Price</h2>
+        <select id="productSelect">
+        <option value="">Select Product</option>
+        </select>
+        <label for="price">Price per Unit:</label>
+        <input type="number" id="price"></br></br>
+        <button onclick="setPrice()">Set Price</button>
+        
+    <td id="checkout-section">
+            <h1>Checkout</h1></br>
+            <h2>New Transaction</h2>
+            <button onclick="startNewTransaction()">Start New Transaction</button>
+            <h2>Add Product to Cart</h2>
+            <select id="productToCart">
+            <option value="">Select Product</option>
+            </select>
+            <label for="units">Units:</label>
+            <input type="number" id="units" min="1">
+            </br></br>
+            <div class="calc-keys">
+                <button>9</button>
+                <button>8</button>
+                <button>7</button></br>
+                <button>6</button>
+                <button>5</button>
+                <button>4</button></br>
+                <button>3</button>
+                <button>2</button>
+                <button>1</button>                
+            </div>
+            </br>
+            <button onclick="addToCart()">Add to Cart</button>
+            <h2>Payment Details</h2>
+            
+        <td id="receipt-section">        
+            <h1>Receipt</h1></th>
+            <table>
+            <p id="dateTime">Date</p>  
+            <tr>
+            <th>Producs<ul id="cartDetails"></ul></th>
+            <th>Total<ul id="totalAmount"> </ul></th>
+            <th>Items<ul id="receiptItems"></ul></th>
+              </tr>      
+            </table>
+            <button onclick="receivePayment()">Pay</button>
+
+    <script type="text/javascript" src="java.js"></script>      
+        </table>   
+</body>
+</html>
